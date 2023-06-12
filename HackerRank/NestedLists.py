@@ -16,4 +16,6 @@ if __name__ == '__main__':
         if arr[i][1] == second_score:
             name_arr.append(arr[i][0])
     name_arr.sort()
-    print(name_arr)
+
+    for i in range(len(name_arr)):
+        print(name_arr[i])
